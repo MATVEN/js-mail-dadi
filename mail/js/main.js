@@ -11,8 +11,7 @@ for (var i = 0; i < listMail.length; i++) {
     found = true;
   }
 }
-
-if (found == true) {
+if (found) {
   console.log('Congratulations!You are on the invited list.');
 }
 else {
